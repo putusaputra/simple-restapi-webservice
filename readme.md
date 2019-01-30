@@ -10,12 +10,12 @@ Simple Restful API Webservice
 - Go to the project folder
 - Run command : php artisan serve, it will show server_url
 - Test following url using postman (will responded with $accessToken)
-    - server_url/login
-    - server_url/register
+    - server_url/api/login
+    - server_url/api/register
 
 - Test following url using postman and headers (Authorization : Bearer + $accessToken, Content-Type : application/x-www-form-urlencoded, Accept : application/json)
-    - server_url/details
-    - server_url/updateUser
-    - server_url/deleteUser
-    - server_url/logout
+    - server_url/api/details
+    - server_url/api/updateUser
+    - server_url/api/deleteUser
+    - server_url/api/logout
 
